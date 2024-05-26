@@ -1,0 +1,66 @@
+/* styles.css */
+
+/* Apply different font families, sizes, and styles to the recipe title, ingredients, and steps */
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    color: #4a4a4a;
+    text-align: center;
+}
+
+ul, ol {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    line-height: 1.5;
+   
+}
+
+
+
+
+
+/* Add padding and margin to elements to enhance spacing and layout */
+body {
+    padding: 20px;
+    margin: 0;
+    background-color: #765555;
+}
+
+/* Create a border around the recipe to separate it from the rest of the page */
+.recipe-container {
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Use different colors for text and background to improve readability */
+p {
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Apply hover effects to links within the recipe, such as the recipe source link */
+a:hover {
+    color: #ff6347; /* Change color on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+
+
+/* styles.css */
+
+button {
+    padding: 15px 20px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    cursor: pointer;
+ 
+   
+   
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
